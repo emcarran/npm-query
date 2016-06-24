@@ -1,0 +1,29 @@
+{
+    "name": "npm-query",
+    "version": "1.0.0",
+    "description": "npm install playgorund",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run clean",
+        "build": "npm run mkdir",
+        "build": "npm run build:html",
+        "build": "npm run build:css",
+        "watch": "npm run watch:html",
+        "watch": "npm run watch:css",
+        "clean:css": "rm -f build/$npm_package_name.$npm_package_version.css build/$npm_package_name.$npm_package_version.css.map"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emcarran/npm-query.git"
+    },
+    "author": "Elizabeth Carranza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/emcarran/npm-query/issues"
+    },
+    "homepage": "https://github.com/emcarran/npm-query#readme",
+    "dependencies": {
+        "jquery": "^3.0.0"
+    }
+}
